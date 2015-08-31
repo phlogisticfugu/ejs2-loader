@@ -1,0 +1,35 @@
+{
+  "name": "ejs2-loader",
+  "version": "0.0.0",
+  "description": "support EJS (http://ejs.co/) 2.x templates in webpack",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/phlogisticfugu/ejs2-loader.git"
+  },
+  "keywords": [
+    "webpack",
+    "ejs"
+  ],
+  "author": "Phlogistic Fugu <phlogisticfugu@gmail.com>",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/phlogisticfugu/ejs2-loader/issues"
+  },
+  "homepage": "https://github.com/phlogisticfugu/ejs2-loader#readme",
+  "dependencies": {
+    "loader-utils": "^0.2.11"
+  },
+  "peerDependencies": {
+    "ejs": "^2.3.3"
+  },
+  "devDependencies": {
+    "del": "^1.2.1",
+    "mocha": "^2.2.5",
+    "should": "^7.1.0",
+    "webpack": "^1.12.0"
+  }
+}
